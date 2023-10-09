@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;1,200&family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #101820   ;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 3px 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .log{
+    width: 80px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+}
+nav ul li a:hover{
+    color: #85E70A;
+    transition: 0.4s;
+    font-weight: 600;
+    border-bottom: 2px #ffff;
+}
+.content{
+    text-align: center;
+}
+.content h1{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10rem;
+}
+
+.content a{
+    text-decoration: none;
+    background-color: rgba(240, 248, 255, 0);
+    padding: 10px 40px;
+    border: 2px solid #ffff;
+    color: aliceblue;
+    font-size: 20px;
+    /* font-family: 'Poppins', sans-serif; */
+    border-radius: 50px;
+    margin-bottom: -40px;
+}
+.content a:hover{
+    color:  #85E70A;
+    transition: 0.5s;
+    font-size: 26px;
+    border: 2px solid #ffffff00;
+
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1 ;
+    /* margin-right: 20rem; */
+    width: 119rem;
+}
+.overlap{
+    background-color: #101820;
+    height: 500px;
+    text-align: center;
+}
+.overlap p{
+    color: #ffff;
+    font-size: 60px;
+    line-height: 4rem;
+    margin-top: 50px;
+
+}
+.overlap h3{
+    color: #10182000;
+}
+.overlap a{
+    text-decoration: none;
+    background-color: #84e70ab9;
+    padding: 10px 40px;
+    color: #F9F9F9;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.overlap a:hover{
+    background-color: #10182000;
+    color: #85E70A;
+    transition: 0.4s;
+    border: 1px solid #85E70A;
+    font-size: 22px;
+}
+.explain{
+    border-radius: 80px;
+    background-color: #ffffff;
+    margin-top: -100px;
+    padding: 20px;
+    height: 700px;
+}
+.explain h1{
+    font-size: 80px;
+    line-height: 5rem;
+    margin-top: 10rem;
+}
+.explain p{
+    font-size: 20px;
+}
+.caroasel{
+    margin-top: -200px;
+}
+.cardTime{
+background: url(/ASSET/PICT/bus2.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 40rem  ;
+background-attachment: fixed;
+margin-top: -70px;
+}
+.cardTime h1{
+    color: #6b505000;
+    text-align: center  ;
+}
+ .cardTime p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 6rem;
+ }   
+ 
